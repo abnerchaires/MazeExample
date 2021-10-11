@@ -42,7 +42,7 @@ void SolveMaze(int row, int col, char maze[][100], int rowSz, int colSz, bool& f
     // Base Case: Found Finish
     if (maze[row][col] == 'F') {
         foundEnd = true;
-        finaldir == currDir;
+        finaldir = currDir;
         return;
     }
 
